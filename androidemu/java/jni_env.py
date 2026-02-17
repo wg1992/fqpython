@@ -2181,4 +2181,4 @@ class JNIEnv:
 
     @native_method
     def get_object_ref_type(self, mu, env):
-        raise NotImplementedError()
+        return 0
