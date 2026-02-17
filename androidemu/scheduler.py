@@ -315,7 +315,8 @@ class Scheduler:
                 if (clear_task_when_return):
                     #clear all unfinished task
                     self.__tasks_map.clear()
-                return
+                    self.__ordered_tasks_list.clear()
+                    return
             #
         #
     #
